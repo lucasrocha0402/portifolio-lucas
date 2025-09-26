@@ -40,7 +40,7 @@ const Header = () => {
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://github.com/seu-usuario"
+              href="https://github.com/lucasrocha0402"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
@@ -48,7 +48,7 @@ const Header = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/seu-perfil"
+              href="https://www.linkedin.com/in/lucassampaio-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
@@ -56,7 +56,7 @@ const Header = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:seu.email@exemplo.com"
+              href="mailto:lukasrocha0402@gmail.com"
               className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
             >
               <Mail size={20} />
@@ -89,7 +89,7 @@ const Header = () => {
             </nav>
             <div className="flex items-center space-x-4 mt-4 pt-4 border-t border-gray-200">
               <a
-                href="https://github.com/seu-usuario"
+                href="https://github.com/lucasrocha0402"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
@@ -97,7 +97,7 @@ const Header = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/seu-perfil"
+                href="https://www.linkedin.com/in/lucassampaio-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
@@ -105,7 +105,7 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:seu.email@exemplo.com"
+                href="mailto:lukasrocha0402@gmail.com"
                 className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
               >
                 <Mail size={20} />

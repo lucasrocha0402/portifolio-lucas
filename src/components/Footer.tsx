@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Right side - Social Links */}
           <div className="flex items-center space-x-6">
             <a
-              href="https://github.com/seu-usuario"
+              href="https://github.com/lucasrocha0402"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -27,7 +27,7 @@ const Footer = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/seu-perfil"
+              href="https://www.linkedin.com/in/lucassampaio-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -35,7 +35,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:seu.email@exemplo.com"
+              href="mailto:lukasrocha0402@gmail.com"
               className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <Mail size={24} />

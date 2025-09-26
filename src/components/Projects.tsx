@@ -18,7 +18,7 @@ const Projects = () => {
         'Notificações push personalizadas'
       ],
       status: 'Concluído',
-      github: 'https://github.com/seu-usuario/dashinvest',
+      github: 'https://github.com/lucasrocha0402/dashinvest',
       demo: 'https://dashinvest-demo.vercel.app',
       color: 'from-green-500 to-emerald-600'
     },
@@ -38,7 +38,7 @@ const Projects = () => {
         'Sincronização em nuvem'
       ],
       status: 'Em desenvolvimento',
-      github: 'https://github.com/seu-usuario/app-financeiro',
+      github: 'https://github.com/lucasrocha0402/app-financeiro',
       demo: null,
       color: 'from-blue-500 to-cyan-600'
     },
@@ -58,7 +58,7 @@ const Projects = () => {
         'Dashboard administrativo'
       ],
       status: 'Concluído',
-      github: 'https://github.com/seu-usuario/lifeplus',
+      github: 'https://github.com/lucasrocha0402/lifeplus',
       demo: 'https://lifeplus-app.vercel.app',
       color: 'from-red-500 to-pink-600'
     }

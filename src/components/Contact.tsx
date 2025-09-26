@@ -25,15 +25,15 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      value: 'seu.email@exemplo.com',
-      link: 'mailto:seu.email@exemplo.com',
+      value: 'lukasrocha0402@gmail.com',
+      link: 'mailto:lukasrocha0402@gmail.com',
       color: 'from-red-500 to-pink-600'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'WhatsApp',
-      value: '+55 (11) 99999-9999',
-      link: 'https://wa.me/5511999999999',
+      value: '+55 (85) 981482193',
+      link: 'https://wa.me/5585981482193',
       color: 'from-green-500 to-emerald-600'
     },
     {
@@ -49,14 +49,14 @@ const Contact = () => {
     {
       name: 'GitHub',
       icon: <Github className="w-6 h-6" />,
-      url: 'https://github.com/seu-usuario',
+      url: 'https://github.com/lucasrocha0402',
       color: 'hover:text-gray-900',
       description: 'Veja meus projetos'
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'https://linkedin.com/in/seu-perfil',
+      url: 'https://www.linkedin.com/in/lucassampaio-dev',
       color: 'hover:text-blue-600',
       description: 'Conecte-se comigo'
     }
@@ -82,7 +82,7 @@ Mensagem:
 ${formData.message}
     `)
     
-    window.location.href = `mailto:seu.email@exemplo.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:lukasrocha0402@gmail.com?subject=${subject}&body=${body}`
     
     // Reset form
     setFormData({
@@ -173,7 +173,7 @@ ${formData.message}
                 Adoro discutir projetos interessantes e trocar ideias sobre tecnologia!
               </p>
               <a
-                href="https://calendly.com/seu-usuario"
+                href="https://calendly.com/lucasrocha0402"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium text-sm"
@@ -208,7 +208,7 @@ ${formData.message}
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200"
-                      placeholder="Seu nome"
+                      placeholder="Lucas Sampaio"
                     />
                   </div>
                   
@@ -224,7 +224,7 @@ ${formData.message}
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200"
-                      placeholder="seu.email@exemplo.com"
+                      placeholder="lukasrocha0402@gmail.com"
                     />
                   </div>
                 </div>
@@ -281,14 +281,14 @@ ${formData.message}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:seu.email@exemplo.com"
+              href="mailto:lukasrocha0402@gmail.com"
               className="inline-flex items-center px-8 py-4 bg-white text-primary-600 hover:bg-gray-100 font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               <Mail className="mr-2" size={20} />
               Enviar Email
             </a>
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5585981482193"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-primary-600 font-semibold rounded-lg transition-colors duration-200"

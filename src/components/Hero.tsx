@@ -61,16 +61,16 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex flex-wrap gap-8 mt-12 pt-8 border-t border-gray-200">
               <div>
-                <div className="text-2xl font-bold text-primary-600">5+</div>
-                <div className="text-gray-600 text-sm">Meses de Experiência</div>
+                <div className="text-2xl font-bold text-primary-600">2+</div>
+                <div className="text-gray-600 text-sm">Anos de Experiência</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary-600">10+</div>
-                <div className="text-gray-600 text-sm">Projetos Concluídos</div>
+                <div className="text-2xl font-bold text-primary-600">6</div>
+                <div className="text-gray-600 text-sm">Empresas Trabalhadas</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary-600">3</div>
-                <div className="text-gray-600 text-sm">Stacks Dominadas</div>
+                <div className="text-2xl font-bold text-primary-600">15+</div>
+                <div className="text-gray-600 text-sm">Tecnologias Dominadas</div>
               </div>
             </div>
           </div>

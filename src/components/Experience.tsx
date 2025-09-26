@@ -4,41 +4,125 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Desenvolvedor Júnior',
-      company: 'Startup de Tecnologia',
-      location: 'Remoto',
-      period: '2024 - Presente',
-      duration: '5+ meses',
+      title: 'Desenvolvedor de Software Nível 2',
+      company: 'Impar Tecnologia',
+      location: 'Fortaleza, Ceará - Presencial',
+      period: 'Setembro 2025 - Presente',
+      duration: '1+ mês',
       type: 'Full-time',
-      description: 'Desenvolvimento full stack com foco em aplicações web e mobile usando React, TypeScript e tecnologias modernas.',
+      description: 'Desenvolvimento de aplicações web modernas e responsivas com foco em performance e experiência do usuário.',
       achievements: [
-        'Aprendizado rápido em TSX, Git avançado e Prisma ORM',
-        'Múltiplas entregas em produção com zero bugs críticos',
-        'Implementação de funcionalidades complexas em React',
-        'Colaboração efetiva em equipe ágil usando metodologias Scrum',
-        'Refatoração de código legacy melhorando performance em 30%'
+        'Desenvolvimento de aplicações web com Next.js e React',
+        'Implementação de interfaces responsivas com Tailwind CSS',
+        'Desenvolvimento com TypeScript para maior segurança de tipos',
+        'Criação de componentes reutilizáveis e modulares',
+        'Otimização de performance e SEO das aplicações'
       ],
-      technologies: ['React', 'TypeScript', 'Prisma', 'Git', 'Node.js', 'PostgreSQL'],
+      technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'ESLint', 'PostCSS', 'Git'],
       color: 'from-blue-500 to-indigo-600'
     },
     {
       id: 2,
-      title: 'Desenvolvedor Flutter',
-      company: 'Projetos Freelance',
-      location: 'Remoto',
-      period: '2023 - 2024',
-      duration: '1+ ano',
+      title: 'Desenvolvedor',
+      company: 'Maple Agency - Freelance',
+      location: 'Fortaleza, Ceará - Remoto',
+      period: 'Julho 2025 - Presente',
+      duration: '3+ meses',
       type: 'Freelance',
-      description: 'Desenvolvimento de aplicações mobile multiplataforma com Flutter, integrações com APIs REST e bancos de dados.',
+      description: 'Desenvolvimento de aplicações em Flutter com foco em qualidade e performance.',
       achievements: [
-        'Desenvolveu 3+ aplicações mobile completas',
-        'Implementação de clean architecture e padrões avançados',
-        'Integração com Firebase, Supabase e APIs REST',
-        'Deploy e publicação na Google Play Store',
-        'Satisfação de 100% dos clientes com entregas no prazo'
+        'Desenvolvimento de aplicações Flutter completas',
+        'Implementação de clean architecture e melhores práticas',
+        'Integração com APIs e serviços externos',
+        'Entrega de soluções de alta qualidade no prazo',
+        'Colaboração eficiente com equipe remota'
       ],
-      technologies: ['Flutter', 'Dart', 'Firebase', 'Supabase', 'REST APIs', 'SQLite'],
+      technologies: ['Flutter', 'Dart', 'APIs REST', 'Git', 'Clean Architecture'],
       color: 'from-green-500 to-emerald-600'
+    },
+    {
+      id: 3,
+      title: 'Desenvolvedor',
+      company: 'IzzyWay',
+      location: 'Fortaleza, Ceará - Presencial',
+      period: 'Março 2025 - Agosto 2025',
+      duration: '6 meses',
+      type: 'Full-time',
+      description: 'Atuação em diversas tecnologias e ferramentas para desenvolvimento de soluções robustas e inovadoras.',
+      achievements: [
+        'Expertise em Flutter, Xamarin e C# para aplicações mobile e web',
+        'Trabalho com frameworks .NET Framework e .NET Core',
+        'Experiência com SQL e SQL Server para gerenciamento de dados',
+        'Desenvolvimento e integração de APIs REST',
+        'Vivência em ambientes de computação em nuvem (Azure)',
+        'Utilização de Git para controle de versionamento',
+        'Adepto de metodologias ágeis (Scrum e Kanban)'
+      ],
+      technologies: ['Flutter', 'C#', 'Xamarin', '.NET Framework', '.NET Core', 'Git', 'SQL', 'APIs REST', 'Azure', 'Scrum', 'Kanban'],
+      color: 'from-purple-500 to-pink-600'
+    },
+    {
+      id: 4,
+      title: 'Analista de QA',
+      company: 'Empresa de Tecnologia',
+      location: 'Fortaleza, Ceará',
+      period: 'Julho 2024 - Março 2025',
+      duration: '9 meses',
+      type: 'Full-time',
+      description: 'Responsável pela elaboração e execução de testes manuais e automatizados em todas as fases do ciclo de vida do desenvolvimento de software.',
+      achievements: [
+        'Testes com Selenium em C#, Appium em C#, Robot em Python',
+        'Execução de testes em ambientes de pré-QA, QA e pré-produção',
+        'Detecção precoce de bugs e problemas de qualidade',
+        'Configuração de ambientes desktop, web e mobile',
+        'Criação de documentações com WordPress e HTML5',
+        'Colaboração com desenvolvedores para entender requisitos',
+        'Experiência com Azure e metodologia ágil Scrum'
+      ],
+      technologies: ['Selenium', 'Appium', 'Robot Framework', 'Python', 'C#', 'HTML', 'CSS', 'JavaScript', 'SQL', 'Azure', 'Scrum'],
+      color: 'from-orange-500 to-red-600'
+    },
+    {
+      id: 5,
+      title: 'Estagiário de QA',
+      company: 'Empresa de Tecnologia',
+      location: 'Fortaleza, Ceará',
+      period: 'Março 2024 - Julho 2024',
+      duration: '5 meses',
+      type: 'Estágio',
+      description: 'Início da jornada em qualidade de software com foco em aprendizado e desenvolvimento de competências.',
+      achievements: [
+        'Documentação de software e processos',
+        'Comunicação empresarial eficaz',
+        'Conhecimento em banco de dados',
+        'Ferramentas de melhoria de qualidade',
+        'Programação lógica e acompanhamento de bugs',
+        'Experiência com C# e Programação Orientada a Objetos',
+        'Utilização de Selenium para testes automatizados'
+      ],
+      technologies: ['C#', 'POO', 'Selenium', 'SQL', 'Documentação', 'Git'],
+      color: 'from-teal-500 to-cyan-600'
+    },
+    {
+      id: 6,
+      title: 'Estagiário de Dados e Automação',
+      company: 'ChatZDesk Brasil',
+      location: 'São Paulo - Remoto',
+      period: 'Dezembro 2023 - Março 2024',
+      duration: '4 meses',
+      type: 'Estágio',
+      description: 'Desenvolvimento e manutenção de pipelines de dados para coleta, transformação e análise.',
+      achievements: [
+        'Implementação de soluções de automação para tarefas repetitivas',
+        'Criação de ferramentas para visualização e análise de dados',
+        'Colaboração com diversas áreas da empresa',
+        'Domínio em análise de dados e automação',
+        'Experiência com Docker Swarm e Traefik',
+        'Trabalho com RabbitMQ, N8n, Typebot, Appsmith e Supabase',
+        'Destaque em comunicação e trabalho em equipe'
+      ],
+      technologies: ['Python', 'SQL', 'JavaScript', 'PostgreSQL', 'Docker Swarm', 'Traefik', 'RabbitMQ', 'N8n', 'Supabase', 'Git'],
+      color: 'from-indigo-500 to-purple-600'
     }
   ]
 
@@ -52,9 +136,9 @@ const Experience = () => {
   const education = [
     {
       title: 'Tecnologia da Informação',
-      institution: 'Universidade/Curso Técnico',
+      institution: 'Instituição de Ensino Superior',
       period: '2020 - 2023',
-      description: 'Formação sólida em programação, banco de dados, redes e desenvolvimento de software.'
+      description: 'Formação sólida em programação, banco de dados, redes e desenvolvimento de software, com foco em tecnologias modernas e melhores práticas de desenvolvimento.'
     }
   ]
 
