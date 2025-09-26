@@ -61,6 +61,50 @@ const Projects = () => {
       github: 'https://github.com/lucasrocha0402/lifeplus',
       demo: 'https://lifeplus-app.vercel.app',
       color: 'from-red-500 to-pink-600'
+    },
+    {
+      id: 4,
+      title: 'ShopEasy',
+      subtitle: 'E-commerce Mobile',
+      description: 'Aplicativo de e-commerce completo com carrinho de compras, sistema de pagamentos, reviews de produtos e chat com vendedores.',
+      longDescription: 'Plataforma de e-commerce mobile desenvolvida com React Native, oferecendo uma experiência de compra fluida e intuitiva. Inclui sistema de busca avançada, wishlist, notificações push e integração com APIs de pagamento.',
+      icon: <TrendingUp className="w-6 h-6" />,
+      image: '/projects/shopeasy.jpg', // Placeholder
+      technologies: ['React Native', 'Node.js', 'PostgreSQL', 'Stripe API', 'Socket.io', 'Redux'],
+      features: [
+        'Carrinho de compras com persistência local',
+        'Sistema de pagamentos integrado',
+        'Chat em tempo real com vendedores',
+        'Busca avançada com filtros',
+        'Sistema de reviews e avaliações',
+        'Notificações push personalizadas'
+      ],
+      status: 'Em desenvolvimento',
+      github: 'https://github.com/lucasrocha0402/shopeasy',
+      demo: null,
+      color: 'from-purple-500 to-indigo-600'
+    },
+    {
+      id: 5,
+      title: 'DataViz Dashboard',
+      subtitle: 'Analytics & Visualização',
+      description: 'Dashboard interativo para visualização de dados com gráficos dinâmicos, filtros avançados e exportação de relatórios.',
+      longDescription: 'Plataforma web para análise e visualização de dados empresariais, desenvolvida com Next.js e TypeScript. Oferece insights em tempo real através de gráficos interativos e relatórios personalizáveis.',
+      icon: <TrendingUp className="w-6 h-6" />,
+      image: '/projects/dataviz.jpg', // Placeholder
+      technologies: ['Next.js', 'TypeScript', 'Chart.js', 'Supabase', 'Tailwind CSS', 'Recharts'],
+      features: [
+        'Gráficos interativos e responsivos',
+        'Filtros avançados por período e categoria',
+        'Exportação de relatórios em PDF/Excel',
+        'Temas claro e escuro',
+        'Dashboard personalizável',
+        'Integração com APIs externas'
+      ],
+      status: 'Concluído',
+      github: 'https://github.com/lucasrocha0402/dataviz-dashboard',
+      demo: 'https://dataviz-dashboard.vercel.app',
+      color: 'from-cyan-500 to-blue-600'
     }
   ]
 

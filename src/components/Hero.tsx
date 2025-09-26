@@ -65,8 +65,8 @@ const Hero = () => {
                 <div className="text-gray-600 text-sm">Anos de Experiência</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary-600">6</div>
-                <div className="text-gray-600 text-sm">Empresas Trabalhadas</div>
+                <div className="text-2xl font-bold text-primary-600">5</div>
+                <div className="text-gray-600 text-sm">Projetos Desenvolvidos</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-primary-600">15+</div>
